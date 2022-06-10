@@ -1,8 +1,3 @@
-@media (prefers-color-scheme: dark) {
-  // Styles for dark mode here
-  body { background-color: #222 }
-  ...
-}
 ---
 layout: page
 title: About
