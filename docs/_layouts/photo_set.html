@@ -3,26 +3,30 @@ layout: default
 ---
 <style type="text/css" media="screen">
   body {
-  background-color: #121212;
+  background-color: black;
   } 
   .container {
     margin: 10px auto;
     max-width: 600px;
     text-align: center;
   }
+  ul {
+    list-style-type: none;
+  }
   h1 {
     margin: 30px 0;
     font-size: 4em;
-    color:azure;
+    color: white;
     line-height: 1;
     letter-spacing: -1px;
+    text-align: center;
   }
 </style>
 
 {% assign num = page.photos.size %}
 
 <h1>{{ page.title }}</h1>
-<ul style="list-style-type:none">
+<ul>
   {% for i in (1..num) %}
   <li>
     <img src="{{ site.baseurl }}/images/photos/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
