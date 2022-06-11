@@ -3,51 +3,40 @@ layout: page
 permalink: /about/
 ---
 
-
-<div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
-</div>
-
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div> 
+<html>
+ <head>
+      <style>
+         * {
+         box-sizing: border-box;
+         }
+         .ul_class {
+         width: 100%;
+         display:block;
+         text-align: center;
+         }
+         .li_class {
+         width: 33.33%;
+         display:inline-block;
+         margin-right: -4px;
+         }
+         h1 {
+            text-align: center;
+         }
+         p {
+            text-align: center
+         }
+      </style>
+   </head>
+   <h1>
+   About Us
+   </h1>
+   <p>Our names are Daniel and Steven Peladeau and we are based out of Warwick, Rhode Island. We bought our 1971 MG Midget in Spring of 2006 and have restored it together up until Mid-2022.</p>
+   <p>Over the course of our restoration we have done engine work, suspension work, welding, bodywork, paint and upholstery repair in order to get it into the state that it is now. This restoration took over a decade due to elementary/middle/highschool/college committments for Daniel and Steve was taking care of four children while working two jobs.</p>
+   <p>Our next journey started June 2021 when Dan purchased a 1971 MGB GT from Florida and had it shipped up to Rhode Island. The engine has already been pulled out, machined, painted and completely brought back to life after sitting for over 15 years. Keep a look out for more pictures of the GT in future years!</p>
+   <body>
+      <ul class="ul_class">
+         <li class="li_class"><img src="/images/photos/dan.jpg" alt="Dan" style="width:75%"></li>
+         <li class="li_class"><img src="/images/photos/steve.jpg" alt="Steve" style="width:100%"></li>
+      </ul>
+   </body>
+</html>
