@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Photos
 description: "ENTER HERE"
 ---
 

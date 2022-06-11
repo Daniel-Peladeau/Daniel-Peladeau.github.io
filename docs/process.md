@@ -6,5 +6,5 @@ description: "Restoration Process from 2006 - 2022"
 
 photos:
     set: process
-    size: 7
+    size: 9
 ---
